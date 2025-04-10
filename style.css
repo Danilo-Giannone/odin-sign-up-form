@@ -28,9 +28,11 @@ body {
 .odin_logo {
     height: 6rem;
 }
-input:focus{
+
+input:focus {
     border-color: blue;
 }
+
 input:invalid {
     border-color: red;
 }
