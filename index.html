@@ -12,45 +12,49 @@
 
 <body>
     <div id="container">
-        <div class="img">
+        <div class="left">
             <div class="logo">
-                <img src="assets/images/odin-lined.png" alt="odin logo">
-                <h1>ODIN</h1>
+                <img class="odin_logo" src="assets/images/odin-lined.png" alt="odin logo">
+                <p class="logo_text">ODIN</p>
             </div>
             <div class="credit">
-                <h6>Photo by <a href="https://unsplash.com/@haliewestphoto">Halie West</a> on <a href="https://unsplash.com/">unsplash.com</a></h6>
+                <h6>Photo by <a href="https://unsplash.com/@haliewestphoto">Halie West</a> on <a
+                        href="https://unsplash.com/">unsplash.com</a></h6>
             </div>
         </div>
-        <div class="hero">
-            <p>This is not a real online service! You know you need something like this in your life to help you realize
-                your deepest dreams. Sign up <em>now</em> to get started</p>
-            <p>You <em>know</em> you want to.</p>
+        <div class="right">
+            <div class="hero">
+                <p>This is not a real online service! You know you need something like this in your life to help you
+                    realize
+                    your deepest dreams. Sign up <em>now</em> to get started</p>
+                <p>You <em>know</em> you want to.</p>
+            </div>
+            <form action="" method="get">
+                <fieldset>
+                    <label for="first_name"> First name</label>
+                    <input type="text" name="first_name" id="first_name" placeholder="Thor">
+
+                    <label for="last_name"> Last name</label>
+                    <input type="text" name="last_name" id="last_name" placeholder="Odinson">
+                </fieldset>
+                <fieldset>
+                    <label for="email"> Email</label>
+                    <input type="email" name="email" id="email" placeholder="thor.odinson@Ásgarðr.com">
+
+                    <label for="number"> Phone number</label>
+                    <input type="number" name="number" id="number">
+                </fieldset>
+                <fieldset>
+                    <label for="password"> First name</label>
+                    <input type="password" name="password" id="password">
+
+                    <label for="confirm_password"> First name </label>
+                    <input type="password" name="confirm_password" id="confirm_password">
+                </fieldset>
+            </form>
+            <button class="btn" type="submit">Create Account</button>
+            <h5>Already have an account? <a class="log_in_link" href="">Log in</a></h5>
         </div>
-        <form action="" method="get">
-            <fieldset>
-                <label for="first_name"> First name</label>
-                <input type="text" name="first_name" id="first_name" placeholder="Thor">
-
-                <label for="last_name"> Last name</label>
-                <input type="text" name="last_name" id="last_name" placeholder="Odinson">
-            </fieldset>
-            <fieldset>
-                <label for="email"> Email</label>
-                <input type="email" name="email" id="email" placeholder="thor.odinson@Ásgarðr.com">
-
-                <label for="number"> Phone number</label>
-                <input type="number" name="number" id="number">
-            </fieldset>
-            <fieldset>
-                <label for="password"> First name</label>
-                <input type="password" name="password" id="password">
-
-                <label for="confirm_password"> First name </label>
-                <input type="password" name="confirm_password" id="confirm_password">
-            </fieldset>
-        </form>
-        <button class="btn" type="submit">Create Account</button>
-        <h5>Already have an account? <a class="log_in_link" href="">Log in</a></h5>
     </div>
 </body>
 

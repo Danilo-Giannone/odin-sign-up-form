@@ -1,3 +1,47 @@
 :root{
-    font-family: "Norse Bold";                                              
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 800;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+#container{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    
+}
+.left{
+    flex: 2;
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    background-image: url("assets/images/halie-west-25xggax4bSA-unsplash.jpg");
+    background-size: cover;  
+    color: white; 
+}
+
+.odin_logo{
+    height: 6rem;
+}
+.right{
+    flex: 3;
+    padding: 7rem 2rem;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(0 0 0 / 50%);
+    font-family: "Norse Bold";
+    margin: 30rem 0;
+    height: 7rem;
+    font-size: 5rem;                                              
+}
+.credit{
+    align-self: center;
+}
+.credit a{
+    color: white;
 }
